@@ -10,6 +10,8 @@
 
 ### Git 폴더구조
 
+`주의사항` -> git Clone할때 Android project path에 한글이 포함되지 않도록 주의 할것,
+
 ```
 git
 ㄴDoc                   (문서)
@@ -46,11 +48,9 @@ Native App과 Javascript 통신이 잘 되는지 , 확인하기 위한 Test Serv
 
 `웹 Relese`
 
-실제 운영서버 
-
-* BackEnd ->  dotnet MVC ASP
+* BackEnd ->  dotnet MVC
 * FronEnd -> Vue Js 2.1
-* TemplateEngine -> nunjucks
+* TemplateEngine -> ASP
 * WebServer ->  IIS Expreess
 * Server ->  Window Server 2012
 * Database -> MSSQL SERVER
