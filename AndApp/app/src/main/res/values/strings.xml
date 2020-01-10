@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SCTI</string>
+    <string name="browser_prop">scti</string>
+    <string name="json_file_path">./url.json</string>
+</resources>

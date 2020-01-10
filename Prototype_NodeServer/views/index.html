@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        노드서버        
+    </div>
+
+    <div>
+        <input type="button" value="버튼" onclick="javascript:andTest()" />
+    </div>
+
+    <script>
+
+        function andTest(){
+            window.and_push.log('웹에서 전송됨');
+            alert('안드로이드 테스트');
+        }
+
+        function setMessage(msg){
+            alert(msg + '안드로이드에서 전송됨')
+        }
+        
+    </script>
+</body>
+</html>
